@@ -2,7 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:5001";
+const SOCKET_URL = "https://sneakerhub-3qzz.onrender.com";
 
 export default function Chat() {
   const [username, setUsername] = useState("");
